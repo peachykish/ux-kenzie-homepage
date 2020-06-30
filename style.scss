@@ -1,0 +1,68 @@
+body {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  h1 {
+    line-height: 0;  
+    text-align: center;
+    font-weight: 100;
+    font-size: 200%
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+      
+    li {
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 12px;
+        margin-left: 12px;
+        margin-bottom: 0;
+        text-decoration: underline;
+    }
+  }
+  
+  .schedule-button {
+    border: none;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+    border-radius: 6em;
+    width: 8em;
+    text-align: center;
+    display: inline-block;
+  } 
+  
+  .hero, .signup-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .email-phone {
+        width: 100%;
+    }
+  }
+  .submit-button {
+    border: 1px solid blue;
+    background-color:white;
+    text-decoration: none;
+    color: blue;
+    padding: 0.5em;
+    border-radius: 6em;
+    width: 8em;
+    text-align: center;
+    display: inline-block;
+  }
+
+  @media (max-width: 550rem) {
+  
+  }
+  
