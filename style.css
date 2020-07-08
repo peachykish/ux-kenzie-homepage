@@ -1,5 +1,9 @@
+:root {
+  --font-family-primary: ;
+}
+
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 h1 {
@@ -15,11 +19,11 @@ nav {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 nav li {
@@ -43,17 +47,18 @@ nav li {
   display: inline-block;
 }
 
-.hero, .signup-form {
+.hero,
+.signup-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 form {
@@ -62,17 +67,19 @@ form {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 form .email-phone {
   width: 100%;
 }
-h3, p, .meet-kenzie {
+h3,
+p,
+.meet-kenzie {
   text-align: center;
 }
 .meet-kenzie {
@@ -85,33 +92,28 @@ h3, p, .meet-kenzie {
 .icon-2 {
   grid-area: icon-2;
   justify-self: center;
-
 }
 .icon-3 {
   grid-area: icon-3;
   justify-self: center;
-
 }
 .icon-4 {
   grid-area: icon-4;
   justify-self: center;
-
 }
 .icon-5 {
   grid-area: icon-5;
   display: flex;
-
 }
 
-
-.meet-kenzie-container{
+.meet-kenzie-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: 
-  "header header header header"
-  "icon-1 icon-2 icon-3 icon-4"
-  " icon-5 icon-5 icon-5 icon-5";
+  grid-template-areas:
+    "header header header header"
+    "icon-1 icon-2 icon-3 icon-4"
+    " icon-5 icon-5 icon-5 icon-5";
   margin: 1rem;
 }
 
