@@ -1,68 +1,97 @@
 body {
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  h1 {
-    line-height: 0;  
-    text-align: center;
-    font-weight: 100;
-    font-size: 200%
-  }
-  
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-      
-    li {
-        display: inline-block;
-        margin-top: 0;
-        margin-right: 12px;
-        margin-left: 12px;
-        margin-bottom: 0;
-        text-decoration: underline;
-    }
-  }
-  
-  .schedule-button {
-    border: none;
-    background-color: blue;
-    text-decoration: none;
-    color: white;
-    padding: 0.5em;
-    border-radius: 6em;
-    width: 8em;
-    text-align: center;
-    display: inline-block;
-  } 
-  
-  .hero, .signup-form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .email-phone {
-        width: 100%;
-    }
-  }
-  .submit-button {
-    border: 1px solid blue;
-    background-color:white;
-    text-decoration: none;
-    color: blue;
-    padding: 0.5em;
-    border-radius: 6em;
-    width: 8em;
-    text-align: center;
-    display: inline-block;
-  }
+  font-family: "Nunito", sans-serif;
+}
 
-  @media (max-width: 550rem) {
-  
+h1 {
+  line-height: 0;
+  text-align: center;
+  font-weight: 100;
+  font-size: 200%;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  li {
+    display: inline-block;
+    margin-right: 6px;
+    margin-left: 6px;
+    text-decoration: underline;
+    font-size: 10px;
   }
-  
+}
+
+.schedule-button {
+  border: none;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  padding: 2px;
+  font-size: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.hero{ 
+  text-align: center;
+  h1 {
+    font-size: x-large;
+  }
+  h2 {
+    font-size: 12px;
+  }
+}
+.student-stories {
+  .student-story-marker {
+    display: flex;
+    flex-direction: row;
+    img {
+      height: 50%;
+      margin-top: 10px;
+    }
+  }
+  .student-story-marker1 {
+    display: flex;
+    flex-direction: row;
+    img {
+      height: 50%;
+      margin-top: 10px;
+  }
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .email-phone {
+    width: 100%;
+  }
+}
+.submit-button {
+  border: 1px solid blue;
+  background-color: white;
+  text-decoration: none;
+  color: blue;
+  padding: 0.5em;
+  border-radius: 6em;
+  width: 8em;
+  text-align: center;
+  display: inline-block;
+}
+
+@media (min-width:550px) {
+  .calendar-wrapper {
+    display: flex;
+    flex-direction: row;
+
+}
+
+}

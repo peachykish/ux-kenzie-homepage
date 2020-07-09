@@ -1,11 +1,5 @@
-:root {
-  --primary-color: white;
-  --secondary-color: blue;
-  --font-family: "Nunito", san-serif;
-}
-
 body {
-  font-family: var(--font-family);
+  font-family: "Nunito", sans-serif;
 }
 
 h1 {
@@ -21,46 +15,96 @@ nav {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 nav li {
   display: inline-block;
-  margin-top: 0;
-  margin-right: 12px;
-  margin-left: 12px;
-  margin-bottom: 0;
+  margin-right: 6px;
+  margin-left: 6px;
   text-decoration: underline;
+  font-size: 10px;
 }
 
 .schedule-button {
   border: none;
-  background-color: var(--secondary-color);
+  background-color: blue;
   text-decoration: none;
-  color: var(--primary-color);
-  padding: 0.5em;
-  border-radius: 6em;
-  width: 8em;
+  color: white;
+  border-radius: 6px;
+  padding: 2px;
+  font-size: 10px;
   text-align: center;
   display: inline-block;
 }
 
-.hero,
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: x-large;
+}
+
+.hero h2 {
+  font-size: 12px;
+}
+
+.student-stories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.student-stories .student-story-marker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.student-stories .student-story-marker img {
+  height: 50%;
+  margin-top: 10px;
+}
+
+.student-stories .student-story-marker1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.student-stories .student-story-marker1 img {
+  height: 50%;
+  margin-top: 10px;
+}
+
 .signup-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 form {
@@ -69,83 +113,26 @@ form {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 form .email-phone {
   width: 100%;
 }
-h3,
-p,
-.meet-kenzie {
-  text-align: center;
-}
-.meet-kenzie {
-  grid-area: header;
-}
-.icon-1 {
-  grid-area: icon-1;
-  justify-self: center;
-}
-.icon-2 {
-  grid-area: icon-2;
-  justify-self: center;
-}
-.icon-3 {
-  grid-area: icon-3;
-  justify-self: center;
-}
-.icon-4 {
-  grid-area: icon-4;
-  justify-self: center;
-}
-.icon-5 {
-  grid-area: icon-5;
-  display: flex;
-}
-
-.meet-kenzie-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "header header header header"
-    "icon-1 icon-2 icon-3 icon-4"
-    " icon-5 icon-5 icon-5 icon-5";
-  margin: 1rem;
-}
 
 .submit-button {
-  border: 1px solid var(--primary-color);
-  background-color: var(--secondary-color);
+  border: 1px solid blue;
+  background-color: white;
   text-decoration: none;
-  color: var(--primary-color);
+  color: blue;
   padding: 0.5em;
   border-radius: 6em;
   width: 8em;
   text-align: center;
   display: inline-block;
-}
-
-.student-story-marker {
-  display: flex;
-}
-
-.calendar-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: ;
-  justify-items: center;
-}
-.calendar-icon,
-.question-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
